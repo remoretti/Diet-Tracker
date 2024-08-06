@@ -189,7 +189,7 @@ for meal in range(1, num_meals + 1):
                 st.session_state['meals'][meal_key].append(food_data)
                 st.success(f'Added {selected_food} ({quantity}g) to {meal_name}')
                 # Resetta i campi di input
-                st.query_params()
+                #st.query_params()
 
     # Mostra i dati del pasto corrente
     if st.session_state['meals'][meal_key]:
